@@ -1,0 +1,12 @@
+name: seo-blog-tool
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - flask
+      - requests
+      - beautifulsoup4
+      - python-dotenv
+      - google-generativeai
